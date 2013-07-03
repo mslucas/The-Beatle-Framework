@@ -1,0 +1,27 @@
+#form1 fieldset {
+	padding: 10px;
+	margin-top: 10px;
+}
+
+#form1 legend {
+	font-weight: bold;
+}
+
+#form1 label {
+	display: block;
+	color: #272727;
+}
+
+#form1 input[type=text] {
+	width: 250px;
+}
+
+#form1 input[type=submit] {
+	margin-top: 20px;
+	width: 120px;
+}
+
+#form1 label.error {
+	color: #FF0000;
+	background-color: #E3ECEB;
+}
