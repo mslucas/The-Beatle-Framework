@@ -1,11 +1,11 @@
 <?php
 return array(
 		#Application ID
-	    'app_id' => 'sso',
+	    'app_id' => 'sampleapp',
 		#Application NAME
-	    'app_name' => 'Single Sign-On',
+	    'app_name' => 'Sample Application',
 	    #Maintenance Mode
-	    'maintenance' => FALSE,
+	    'maintenance' => false,
 		#framework version
 	    'version' => '0.0.1',
 	    #gzip code compressor
@@ -13,44 +13,44 @@ return array(
 	    #HTML5 code
 	    'html5' => TRUE,
 		#titulo
-	    'title' => 'Grupo Kroton/UNIASSELVI',
+	    'title' => 'The Beatle Framework',
 	    #public URL
-	    'public_url' => 'https://sso.asselvi.local',
+	    'public_url' => 'http://localhost/The-Beatle-Framework/application/modelo/public',
 	    #page encoding
 	    'page_encoding' => 'UTF-8',
 	    #page language
 	    'page_lang' => 'pt-br',
 	    #page description
-	    'page_description' => 'Single Sign-On',
+	    'page_description' => 'Sample Application',
 	    #page authot
-	    'page_author' => 'nutec.uniasselvi.com.br',
+	    'page_author' => 'marcoslucas@me.com',
 	    
 	    #Google Analytics Tracker Code
 	    'ga_code' => 'UA-00000000-1',
 	    #CDN javascripts
-	    'cdn_js' => 'https://sso.asselvi.local/cdn/js/',
+	    'cdn_js' => 'http://localhost/The-Beatle-Framework/cdn/js/',
 	    #CDN jQuery
-	    'cdn_jquery' => 'https://sso.asselvi.local/cdn/jquery/',
+	    'cdn_jquery' => 'http://localhost/The-Beatle-Framework/cdn/jquery/',
 	    #CDN jQuery
-	    'cdn_bootstrap' => 'https://sso.asselvi.local/cdn/bootstrap/',
+	    'cdn_bootstrap' => 'http://localhost/The-Beatle-Framework/cdn/bootstrap/',
 	    #CDN CSS's
-	    'cdn_css' => 'https://sso.asselvi.local/cdn/css/',
+	    'cdn_css' => 'http://localhost/The-Beatle-Framework/cdn/css/',
 	    #CDN Images
-	    'cdn_images' => 'https://sso.asselvi.local/cdn/images/',
+	    'cdn_images' => 'http://localhost/The-Beatle-Framework/cdn/images/',
 	    
 	    #default db server
-	    'default_db_server' => 'oracle-produ',
+	    'default_db_server' => 'mysql-local',
 	    
 	    #DB Configs
 	    'db'   => array(
 	    	#Oracle Producao
-	        'oracle-produ' => array(
-	            'type'       => 'oracle',
-	            'host'       => 'dbserver.asselvi.local',
-	            'port'       => '1521',
-	            'database'   => 'dbass',
-	            'username'   => 'dbaass',
-	            'password'   => 't2.4apu',
+	        'mysql-local' => array(
+	            'type'       => 'mysql',
+	            'host'       => '127.0.0.1',
+	            'port'       => '3306',
+	            'database'   => 'sampleapp',
+	            'username'   => 'root',
+	            'password'   => '',
 	            'persistent' => false
 	        ),
 			

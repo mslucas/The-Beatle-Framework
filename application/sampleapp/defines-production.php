@@ -1,11 +1,11 @@
 <?php
 return array(
 		#Application ID
-	    'app_id' => 'modelo',
+	    'app_id' => 'sampleapp',
 		#Application NAME
-	    'app_name' => 'modelo',
+	    'app_name' => 'Sample Application',
 	    #Maintenance Mode
-	    'maintenance' => FALSE,
+	    'maintenance' => false,
 		#framework version
 	    'version' => '0.0.1',
 	    #gzip code compressor
@@ -13,42 +13,42 @@ return array(
 	    #HTML5 code
 	    'html5' => TRUE,
 		#titulo
-	    'title' => 'modelo',
+	    'title' => 'The Beatle Framework',
 	    #public URL
-	    'public_url' => 'http://www.local.com.br/zeusfw/application/modelo/public',
+	    'public_url' => 'http://localhost/The-Beatle-Framework/application/modelo/public',
 	    #page encoding
 	    'page_encoding' => 'UTF-8',
 	    #page language
 	    'page_lang' => 'pt-br',
 	    #page description
-	    'page_description' => 'Just an model application',
+	    'page_description' => 'Sample Application',
 	    #page authot
-	    'page_author' => 'marcoslucas.com',
+	    'page_author' => 'marcoslucas@me.com',
 	    
 	    #Google Analytics Tracker Code
 	    'ga_code' => 'UA-00000000-1',
 	    #CDN javascripts
-	    'cdn_js' => 'hhttp://www.local.com.br/zeusfw/cdn/js/',
+	    'cdn_js' => 'http://localhost/The-Beatle-Framework/cdn/js/',
 	    #CDN jQuery
-	    'cdn_jquery' => 'http://www.local.com.br/zeusfw/cdn/jquery/',
+	    'cdn_jquery' => 'http://localhost/The-Beatle-Framework/cdn/jquery/',
 	    #CDN jQuery
-	    'cdn_bootstrap' => 'http://www.local.com.br/zeusfw/cdn/bootstrap/',
+	    'cdn_bootstrap' => 'http://localhost/The-Beatle-Framework/cdn/bootstrap/',
 	    #CDN CSS's
-	    'cdn_css' => 'http://www.local.com.br/zeusfw/cdn/css/',
+	    'cdn_css' => 'http://localhost/The-Beatle-Framework/cdn/css/',
 	    #CDN Images
-	    'cdn_images' => 'http://www.local.com.br/zeusfw/cdn/images/',
+	    'cdn_images' => 'http://localhost/The-Beatle-Framework/cdn/images/',
 	    
 	    #default db server
 	    'default_db_server' => 'mysql-local',
 	    
 	    #DB Configs
 	    'db'   => array(
-	    	#Mysql local
+	    	#Oracle Producao
 	        'mysql-local' => array(
 	            'type'       => 'mysql',
-	            'host'       => 'localhost',
-	            'port'       => '1521',
-	            'database'   => 'triptheme',
+	            'host'       => '127.0.0.1',
+	            'port'       => '3306',
+	            'database'   => 'sampleapp',
 	            'username'   => 'root',
 	            'password'   => '',
 	            'persistent' => false
